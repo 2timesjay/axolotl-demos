@@ -5,4 +5,5 @@ See https://openaccess-ai-collective.github.io/axolotl/
 
 # Installation
 pip3 install packaging ninja
+pip install 'torch>-2.1.1'
 pip3 install -e '../axolotl/[flash-attn,deepspeed]'
